@@ -1,0 +1,29 @@
+#mainContainer {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+form {
+  border-top: solid thin #B3B3B3;
+  padding-top: 10px;
+}
+
+.form-group input[type="text"] {
+  width: 430px !important;
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+span.glyphicon.glyphicon-remove {
+  float: right;
+  cursor: pointer;
+}
